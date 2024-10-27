@@ -87,7 +87,6 @@ body::before{
 }
 @media screen and (max-width:600px){
   .main-div{
-    width:95%;
     border-radius: 10px;
     background-color: white;
     display: flex;
