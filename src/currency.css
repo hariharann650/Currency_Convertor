@@ -30,7 +30,6 @@ body::before{
   opacity: 0.6;
 }
 .main-div{
-  width:350px;
   border-radius: 10px;
   background-color: white;
   display: flex;
@@ -85,4 +84,15 @@ body::before{
   padding:10px;
   border: 2px dashed #2196F3;
   margin-top:10px;
+}
+@media screen and (max-width:600px){
+  .main-div{
+    width:95%;
+    border-radius: 10px;
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    padding:15px;
+    gap:10px;
+  }
 }
